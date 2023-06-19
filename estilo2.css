@@ -1,0 +1,8 @@
+a:before {
+  content: "→ ";
+}
+
+abbr:after {
+  content: " (" attr(title) ")";
+  font-style: italic;
+}

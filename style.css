@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #2ec610;
+}
+/*
+p{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*margin: 4.8px;*//*
+  text-align: left;
+}
+
+h1{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+*/
+
+h2{
+  color: #7506b1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: left;
+  /*margin: 5.2px;*/
+}
+
+li{
+  color: black;
+  font-size: 16px;
+  text-align: left;
+ /* margin: 5px;*/
+}
+
+h3{
+  background-color: #00ff9d;
+  color: #16430a;
+  text-align: center;
+  size: 16px;
+  
+}
+
+
+
+p{
+  color:#060956;
+  text-aling: ;
+  font-size: 1em;
+}
+p:first-letter {
+  font-size: 1.4em;
+}
+
+p {
+text-indent: 1em;
+text-align: left;
+color:#060956;
+}
+h2 + p {
+  text-indent: 2em;
+}
+
+h3 + p{
+  color: #9a83c3;
+  font-family:;
+   font-size: 0.8em;
+  text-align: left;
+}
+
+h4{
+  color: #548ac0;
+  text-align: ;
+  font-size: 1.1em;
+}
+
+
+
+
+
+em,.special{
+  background:#53a0c1;
+  border: 1px solid: #00ff7b;
+  padding: .1em;
+}
+
+
+
+
+
+
+
+.formulario{
+  font-size: 1.125em;
+  position:relative;
+  width:80%;
+  height:70%;
+  margin:auto;
+   
+   
+}
+ 
+.formulario form{
+ 
+  width:70%;
+  height:100%;
+  margin:auto;
+  
+  
+  
+}
+ 
+  
+label{
+  text-align:right;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color:black;
+  
+}
+.lblSexo{
+  font-size:1.2em;
+}
+
+.inputForm{
+   float:right;
+  font-size: 1.125em;
+  height:5%;
+}
+.lblSexo::before{
+  content: "..";
+  opacity: 0;
+}
+.inputSexo{
+   
+  width:3%;
+  height:3%;
+}
+
+input[type="date"]{
+  width:45%;
+  font-size: 1.75em;
+  
+}
+.Enviar{
+  background-color:#FF8C00;
+  width:24%;
+  height: 8%;
+  font-family:fantasy;
+  font-size:1.67em;
+  color:white;
+   
+  border:2px solid black;
+  margin-left:42.5%;
+}
+.Enviar:hover{
+  background-color: #F1C40F ;
+  color: black;
+  text-shadow: 1px 1px 0px gray; 
+}
